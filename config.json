@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "김태희"
+  },
+  "text": {
+    "more": "\u003cp\u003e\n방향: Undirected\n\u003c/p\u003e\n\n\u003cp\u003e\n레이아웃: ForceAtlas 2\n\u003c/p\u003e\n\n\u003cp\u003e\n필터: Degree Range (50 ~ 834)\n\u003c/p\u003e\n\n\u003cp\u003e\n노드의 크기: Degree\n\u003c/p\u003e\n\n\u003cp\u003e\n노드의 색깔: Modularity Class\n\u003cp\u003e",
+    "intro": "희극 \u0027A Midsummer Night\u0027s Dream\u0027의 전체 내용에서의 명사 (영어원서)를 adjacency matrix로 시각화 했습니다.",
+    "title": " \u0027A Midsummer Night\u0027s Dream\u0027 명사들 간의 관계"
+  },
+  "legend": {
+    "edgeLabel": "명사들 간의 관계",
+    "colorLabel": "Modularity Class",
+    "nodeLabel": "명사"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
